@@ -12,20 +12,23 @@ int main() {
 	// TODO Complete the program
 	srand(time(NULL));
 
+	// Generating random number
 	int myrand = rand() % 11;
 
-	if (myrand < 5)
+	// Outputs
+	if (myrand < 5)	// Beef Option
 	{
 		printf("Eat more beef, kick less cats\n");
 	}
-	else if (myrand < 10)
+	else if (myrand < 10)	// Frodo Option
 	{
 		printf("FRODO LIVES\n");
 	}
-	else
+	else	// Larn Option
 	{
 		printf("Larn is the best roguelike\n");
 	}
 
+	// Print
 	printf("The random number was: %d \n", myrand);
 }
